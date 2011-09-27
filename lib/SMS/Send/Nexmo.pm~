@@ -1,0 +1,5 @@
+use strict;
+use warnings;
+package SMS::Send::Nexmo;
+
+1;
