@@ -69,7 +69,7 @@ SMS::Send::Nexmo - SMS::Send backend for the Nexmo.com SMS service.
 
 =head1 VERSION
 
-version 0.10
+version 0.11
 
 =head1 SYNOPSIS
 
