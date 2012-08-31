@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution SMS-Send-Nexmo,
-version 0.12:
+version 0.20:
 
   SMS::Send backend for the Nexmo.com SMS service.
 
-This software is Copyright (c) 2011 by OTRS BV.
+This software is Copyright (c) 2012 by OTRS BV.
 
 This is free software, licensed under:
 

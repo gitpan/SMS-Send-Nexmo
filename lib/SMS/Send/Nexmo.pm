@@ -1,6 +1,8 @@
 use strict;
 use warnings;
 package SMS::Send::Nexmo;
+
+our $VERSION = '0.20';
 # ABSTRACT: SMS::Send backend for the Nexmo.com SMS service.
 
 use SMS::Send::Driver;
@@ -60,6 +62,7 @@ sub send_sms {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -68,7 +71,7 @@ SMS::Send::Nexmo - SMS::Send backend for the Nexmo.com SMS service.
 
 =head1 VERSION
 
-version 0.12
+version 0.20
 
 =head1 SYNOPSIS
 
@@ -102,11 +105,10 @@ Michiel Beijen <michiel.beijen@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2011 by OTRS BV.
+This software is Copyright (c) 2012 by OTRS BV.
 
 This is free software, licensed under:
 
   The GNU Affero General Public License, Version 3, November 2007
 
 =cut
-
