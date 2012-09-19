@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution SMS-Send-Nexmo,
-version 0.20:
+version 0.21:
 
   SMS::Send backend for the Nexmo.com SMS service.
 

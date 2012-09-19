@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package SMS::Send::Nexmo;
 
-our $VERSION = '0.20';
+our $VERSION = '0.21';
 # ABSTRACT: SMS::Send backend for the Nexmo.com SMS service.
 
 use SMS::Send::Driver;
@@ -49,7 +49,7 @@ sub send_sms {
   my $response = $sms->send;
   
   unless ($response->is_success) {
-    warn "Failure: $sms->errstr\n" if ($self->{_verbose});
+    warn "Failure: " . $sms->errstr . "\n" if ($self->{_verbose});
     return 0;
   }
   return 1;
@@ -71,7 +71,7 @@ SMS::Send::Nexmo - SMS::Send backend for the Nexmo.com SMS service.
 
 =head1 VERSION
 
-version 0.20
+version 0.21
 
 =head1 SYNOPSIS
 
