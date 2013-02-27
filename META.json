@@ -4,7 +4,7 @@
       "Michiel Beijen <michiel.beijen@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300021, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "agpl_3"
    ],
@@ -29,15 +29,15 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/mwb/SMS-Send-Nexmo/issues"
+         "web" : "https://github.com/mbeijen/SMS-Send-Nexmo/issues"
       },
-      "homepage" : "https://github.com/mwb/SMS-Send-Nexmo",
+      "homepage" : "https://github.com/mbeijen/SMS-Send-Nexmo",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/mwb/SMS-Send-Nexmo.git",
-         "web" : "https://github.com/mwb/SMS-Send-Nexmo"
+         "url" : "https://github.com/mbeijen/SMS-Send-Nexmo.git",
+         "web" : "https://github.com/mbeijen/SMS-Send-Nexmo"
       }
    },
-   "version" : "0.21"
+   "version" : "0.22"
 }
 
